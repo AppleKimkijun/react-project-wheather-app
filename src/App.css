@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+body {
+  background: url("../public/img/weather-bg.jpg")no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather_box {
+  border:1px solid white;
+  border-radius: 30px;
+  width: 45vw;
+  height: 60vh;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  font-family: 'Source Serif Pro', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.bt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.bt button{
+  margin: 10px 10px;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  font-family: 'Source Serif Pro', serif;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.bt button:hover {
+  background-color: rgba(255,255,255,.3);
+  color: black;
+  border-color: black;
+}
